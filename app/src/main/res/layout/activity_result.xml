@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity"
+    android:background="@color/primary"
+    >
+
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="55dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="120dp"
+        android:textSize="28sp"
+        android:text="Total Questions"
+        android:textColor="@color/accent"
+        />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_centerVertical="true"
+        android:text="Correct Answers"
+        android:textSize="28sp"
+        android:layout_alignLeft="@+id/textView7"
+        android:textColor="#f1c40f"
+        />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView7"
+        android:layout_alignLeft="@+id/textView7"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginLeft="6dp"
+        android:layout_marginBottom="130dp"
+        android:text="Wrong Answers"
+        android:textColor="#884ea0"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="60dp"
+        android:layout_marginRight="60dp"
+        android:text="TextView"
+        android:textSize="28sp"
+        android:textColor="@color/accent"/>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="58dp"
+        android:layout_marginRight="58dp"
+        android:text="TextView"
+        android:textSize="28sp"
+        android:textColor="#f1c40f"/>
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView9"
+        android:layout_alignEnd="@+id/textView10"
+        android:text="TextView"
+        android:layout_alignRight="@+id/textView10"
+        android:textSize="28sp"
+        android:textColor="#884ea0"/>
+
+    <Button
+        android:id="@+id/buttonok"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="37dp"
+        android:textColor="#24D366"
+        android:background="@drawable/button_border"
+        android:text="OK" />
+
+
+
+</RelativeLayout>

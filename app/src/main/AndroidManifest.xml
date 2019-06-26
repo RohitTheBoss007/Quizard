@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.authentication">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Quizard"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.Dark">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.Dark">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        />
+        <activity
+            android:name=".SignUp"
+            android:theme="@style/AppTheme.Dark" />
+        <activity android:name=".Final" />
+        <activity android:name=".StartScreen" />
+        <activity android:name=".Playing.Play" />
+        <activity android:name=".ResultActivity"/>
+        <activity android:name=".Playing.Play1" />
+        <activity android:name=".Playing.Play2" />
+        <activity android:name=".Playing.Play3" />
+        <activity android:name=".Playing.Play4" />
+        <activity android:name=".Playing.Play5" />
+        <activity android:name=".Playing.Play6"></activity>
+    </application>
+
+</manifest>
